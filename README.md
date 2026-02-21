@@ -1,19 +1,19 @@
 Vaishnavi S – HTML Authentication System
 
 1. Project Title:
-HTML Multi-Page Authentication Prototype
+- HTML Multi-Page Authentication Prototype
 
 2. Project Description:
-This project is a simple authentication system developed using pure HTML.  
-It demonstrates structured navigation between multiple pages without using CSS or JavaScript.
+- This project is a simple authentication system developed using pure HTML.  
+- It demonstrates structured navigation between multiple pages without using CSS or JavaScript.
 
 3. Pages Included:
-1. login.html  
-2. register.html  
-3. forgot-password.html  
-4. reset-password.html  
-5. dashboard.html  
-6. README.md  
+- login.html  
+- register.html  
+- forgot-password.html  
+- reset-password.html  
+- dashboard.html  
+- README.md  
 
 4. Navigation Flow:
 - Login → Dashboard  
