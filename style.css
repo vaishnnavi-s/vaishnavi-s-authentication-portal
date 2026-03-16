@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    padding: 25px;
+    background: #ffffff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+h3{
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus{
+    border-color: #667eea;
+    box-shadow: 0 0 8px rgba(102,126,234,0.5);
+}
+
+.btn{
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary{
+    background: linear-gradient(45deg,#667eea,#764ba2);
+    border: none;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+a{
+    text-decoration: none;
+    color: #667eea;
+    font-weight: 500;
+}
+
+a:hover{
+    color: #764ba2;
+}
+
+.navbar{
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.container h2{
+    font-weight: 600;
+    color: #333;
+}
+
+@media (max-width:768px){
+    .card{
+        width: 90%;
+        margin: auto;
+    }
+}
