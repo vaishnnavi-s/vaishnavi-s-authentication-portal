@@ -19,6 +19,10 @@ The following technologies were used in this project:
 
 ## Pages Description
 
+### Index Page
+![Index Page](screenshots/index.png)
+The index page allows users to navigate between different pages of the authentication system. It uses a Bootstrap card layout with a responsive table that displays page names, descriptions, and quick access links for each section.
+
 ### Login Page  
 ![Login Page](screenshots/login.png)  
 The login page allows users to enter their email and password to access the system. It uses a Bootstrap card layout with styled input fields and includes a "Forgot Password" link.
